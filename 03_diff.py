@@ -46,7 +46,7 @@ def plot_multi(x, u, incr):
         pyplot.ylabel('u (m/s)')
         pyplot.xlim(0, 2)
         pyplot.ylim(0, 2.5)
-        pyplot.title('Non-linear convection')
+        pyplot.title('1D Diffusion')
     pyplot.show()
 
 # Let us plot some curves to check if everything is alright

@@ -9,7 +9,7 @@ nu = .1
 # time 
 t_max = 0.5
 nt = 151
-dt = t_max/nt
+dt = t_max/(nt-1)
 
 # mesh
 nx = 51
